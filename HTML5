@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Diseño Web</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        body {
+            background-color: #f4f7f6; /* Fondo de la página */
+            color: #2c3e50;            /* Color de texto general */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main {
+            max-width: 800px;
+            width: 90%;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: #e74c3c; text-transform: uppercase; letter-spacing: 2px; text-align: center;">
+            Mi Proyecto Web Semántico
+        </h1>
+        
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section>
+            <h2>Bienvenida</h2>
+            <p>Este sitio web ha sido diseñado para demostrar el uso de <strong>HTML semántico</strong> y las diferentes formas de aplicar estilos con CSS.</p>
+        </section>
+
+        <section id="servicios">
+            <h3>Nuestras Tecnologías</h3>
+            <p>Para construir una web moderna utilizamos:</p>
+            <ul>
+                <li>HTML5 para la estructura.</li>
+                <li>CSS3 para el diseño visual.</li>
+                <li>Diseño Responsivo para móviles.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h3>Más Información</h3>
+            <p>Si quieres aprender más sobre desarrollo web, puedes visitar este recurso:</p>
+            <a href="https://developer.mozilla.org" target="_blank" class="enlace-externo">Visitar MDN Web Docs</a>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2026 - Todos los derechos reservados. Diseñado por un Estudiante de Web.</p>
+    </footer>
+
+</body>
+</html>
